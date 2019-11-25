@@ -21,8 +21,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:23.1.1'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
 
     implementation project(':library')
-    //compile 'com.mobiliteam:oqbuilder:0.1.2'
 }
